@@ -31,7 +31,7 @@ src:
 @font-face {
 font-family: 'Work Sans';
 font-weight: 800;
-src: url('../fonts/work-sans-v9-latin-800.eot'); /* IE9 Compat Modes */
+
 src: 
      url('../fonts/work-sans-v9-latin-800.woff2') format('woff2'), 
      url('../fonts/work-sans-v9-latin-800.woff') format('woff'), 
@@ -58,7 +58,8 @@ src:
      url('../fonts/merriweather-v22-latin-italic.ttf') format('truetype')
 }
 @font-face{
-font-family: 'Croissant One', Merriweather, serif;
+      font-family: 'Croissant One', Merriweather, serif;
+      src: url("fonts/FontFile.ttf");
 }
 
 html {
